@@ -11,7 +11,7 @@
 #define SITES_PER_MOL 4      // 1分子あたりのサイト数 (ブタンのUAモデル: CH3-CH2-CH2-CH3)
 #define NATOMS (NMOL * SITES_PER_MOL) // 全原子数
 
-#define BOX_SIZE 30.0        // シミュレーションボックスの1辺の長さ (Angstrom)
+#define BOX_SIZE 100.0        // シミュレーションボックスの1辺の長さ (Angstrom)
 #define CUTOFF 13.65          // LJカットオフ距離
 #define CUTOFF2 (CUTOFF * CUTOFF)
 
