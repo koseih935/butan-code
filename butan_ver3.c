@@ -12,10 +12,10 @@
 #define NATOMS (NMOL * SITES_PER_MOL) // 全原子数
 
 #define BOX_SIZE 30.0        // シミュレーションボックスの1辺の長さ (Angstrom)
-#define CUTOFF 10.0          // LJカットオフ距離
+#define CUTOFF 13.65          // LJカットオフ距離
 #define CUTOFF2 (CUTOFF * CUTOFF)
 
-#define DT 0.001             // タイムステップ (ps)
+#define DT 0.002             // タイムステップ (ps)
 #define NSTEPS 1000          // 総ステップ数
 #define MASS 14.0            // CH2/CH3の近似質量 (g/mol)
 
